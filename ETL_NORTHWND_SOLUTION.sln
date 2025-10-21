@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ETL_NORTHWND", "ETL_NORTHWND\ETL_NORTHWND.dtproj", "{A69EE809-ECDE-8995-FD7A-414ED0876055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A69EE809-ECDE-8995-FD7A-414ED0876055}.Development|Default.ActiveCfg = Development
+		{A69EE809-ECDE-8995-FD7A-414ED0876055}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2C545A3-A86B-44F1-AD86-DD4803283ABA}
+	EndGlobalSection
+EndGlobal

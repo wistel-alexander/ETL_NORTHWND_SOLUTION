@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="STAGE_NORTHWND"
+  DTS:DTSID="{FDCED66D-9E52-4850-B701-628E0541EF60}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=STAGE_NORTHWND;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-{FDCED66D-9E52-4850-B701-628E0541EF60}STAGE_NORTHWND;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
