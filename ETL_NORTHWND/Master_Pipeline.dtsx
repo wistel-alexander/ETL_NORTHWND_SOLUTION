@@ -11,8 +11,8 @@
   DTS:LocaleID="9226"
   DTS:ObjectName="Master_Pipeline"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{5EDCF7C5-6C1F-491B-B3F3-4BAD2D92D2DC}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{D1DD094B-FA49-472F-8C76-91B1CC841642}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -24,7 +24,9 @@
       DTS:DTSID="{6D8FECF1-7CF3-4933-8DC1-60A5F847B5F1}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Sequence Container">
+      DTS:MaxErrorCount="0"
+      DTS:ObjectName="Sequence Container"
+      DTS:TransactionOption="0">
       <DTS:Variables />
       <DTS:Executables>
         <DTS:Executable
@@ -83,7 +85,7 @@
         <DTS:PrecedenceConstraint
           DTS:refId="Package\Sequence Container.PrecedenceConstraints[Constraint]"
           DTS:CreationName=""
-          DTS:DTSID="{8813D791-69E7-449E-8952-D849386B0E20}"
+          DTS:DTSID="{27ED91A1-B196-4FF8-BAF5-55EC6D720B72}"
           DTS:From="Package\Sequence Container\Execute Package Task Tables To Standing_Northwnd"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
@@ -91,7 +93,7 @@
         <DTS:PrecedenceConstraint
           DTS:refId="Package\Sequence Container.PrecedenceConstraints[Constraint 1]"
           DTS:CreationName=""
-          DTS:DTSID="{09DEF419-3682-4A54-9751-B6D96EB55D4F}"
+          DTS:DTSID="{368D1FDF-884F-4D00-9D7B-028970F225D3}"
           DTS:From="Package\Sequence Container\Execute Package Task Transform  and Load  DimsTables To DW_Northwnd"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 1"
@@ -118,37 +120,37 @@
         <NodeLayout
           Size="450,42"
           Id="Package\Sequence Container\Execute Package Task Transform  and Load  DimsTables To DW_Northwnd"
-          TopLeft="227,114.5" />
+          TopLeft="232,134.5" />
         <NodeLayout
           Size="441,42"
           Id="Package\Sequence Container\Execute Package Task Transform  and Load  FactTable To DW_Northwnd"
-          TopLeft="36,207.5" />
+          TopLeft="40,233.5" />
         <EdgeLayout
           Id="Package\Sequence Container.PrecedenceConstraints[Constraint]"
           TopLeft="198.5,65.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="253.5,49"
+              EndConnector="258.5,69"
               Start="0,0"
-              End="253.5,41.5">
+              End="258.5,61.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.5" />
+                    End="0,30.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,20.5"
-                    Point2="0,24.5"
-                    Point3="4,24.5" />
+                    Point1="0,30.5"
+                    Point2="0,34.5"
+                    Point3="4,34.5" />
                   <mssgle:LineSegment
-                    End="249.5,24.5" />
+                    End="254.5,34.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="249.5,24.5"
-                    Point2="253.5,24.5"
-                    Point3="253.5,28.5" />
+                    Point1="254.5,34.5"
+                    Point2="258.5,34.5"
+                    Point3="258.5,38.5" />
                   <mssgle:LineSegment
-                    End="253.5,41.5" />
+                    End="258.5,61.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -159,30 +161,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Sequence Container.PrecedenceConstraints[Constraint 1]"
-          TopLeft="452,156.5">
+          TopLeft="457,176.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-195.5,51"
+              EndConnector="-196.5,57"
               Start="0,0"
-              End="-195.5,43.5">
+              End="-196.5,49.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.5" />
+                    End="0,24.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.5"
-                    Point2="0,25.5"
-                    Point3="-4,25.5" />
+                    Point1="0,24.5"
+                    Point2="0,28.5"
+                    Point3="-4,28.5" />
                   <mssgle:LineSegment
-                    End="-191.5,25.5" />
+                    End="-192.5,28.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-191.5,25.5"
-                    Point2="-195.5,25.5"
-                    Point3="-195.5,29.5" />
+                    Point1="-192.5,28.5"
+                    Point2="-196.5,28.5"
+                    Point3="-196.5,32.5" />
                   <mssgle:LineSegment
-                    End="-195.5,43.5" />
+                    End="-196.5,49.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -194,8 +196,8 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="716,304"
-          Size="716,347"
+          PanelSize="716,338"
+          Size="716,380"
           Id="Package\Sequence Container"
           TopLeft="172,59" />
       </GraphLayout>
