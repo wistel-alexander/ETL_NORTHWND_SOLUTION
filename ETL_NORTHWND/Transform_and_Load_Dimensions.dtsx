@@ -11,8 +11,8 @@
   DTS:LocaleID="9226"
   DTS:ObjectName="Transform_and_Load_Dimensions"
   DTS:PackageType="5"
-  DTS:VersionBuild="99"
-  DTS:VersionGUID="{1DACEC65-1C68-4611-82EA-AC55EE174730}">
+  DTS:VersionBuild="100"
+  DTS:VersionGUID="{BF499B5E-F3E5-4555-BB7E-E770D3B5F4B3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -3179,7 +3179,7 @@
         <NodeLayout
           Size="171,42"
           Id="Package\Sequence Container Transform_and_Load_Dimensions\DFT DimCustomer"
-          TopLeft="350,373" />
+          TopLeft="350,366" />
         <NodeLayout
           Size="172,42"
           Id="Package\Sequence Container Transform_and_Load_Dimensions\DFT DimEmployee"
@@ -3189,6 +3189,14 @@
           Id="Package\Sequence Container Transform_and_Load_Dimensions\DFT DimProducts"
           TopLeft="361,236" />
         <NodeLayout
+          Size="325,42"
+          Id="Package\Sequence Container Transform_and_Load_Dimensions\Execute SQL Task  Clean Fact Table OrderDetails"
+          TopLeft="119,14" />
+        <NodeLayout
+          Size="272,42"
+          Id="Package\Sequence Container Transform_and_Load_Dimensions\Execute SQL Task Clean DimCustomer"
+          TopLeft="33,355" />
+        <NodeLayout
           Size="274,42"
           Id="Package\Sequence Container Transform_and_Load_Dimensions\Execute SQL Task Clean DimEmployee"
           TopLeft="25,98" />
@@ -3196,14 +3204,6 @@
           Size="268,42"
           Id="Package\Sequence Container Transform_and_Load_Dimensions\Execute SQL Task Clean DimProducts"
           TopLeft="40,203" />
-        <NodeLayout
-          Size="272,42"
-          Id="Package\Sequence Container Transform_and_Load_Dimensions\Execute SQL Task Clean DimCustomer"
-          TopLeft="33,355" />
-        <NodeLayout
-          Size="325,42"
-          Id="Package\Sequence Container Transform_and_Load_Dimensions\Execute SQL Task  Clean Fact Table OrderDetails"
-          TopLeft="119,14" />
         <EdgeLayout
           Id="Package\Sequence Container Transform_and_Load_Dimensions.PrecedenceConstraints[Constraint]"
           TopLeft="299,119">
@@ -3278,9 +3278,9 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="45,18"
+              EndConnector="45,11"
               Start="0,0"
-              End="37.5,18">
+              End="37.5,11">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -3291,13 +3291,13 @@
                     Point2="22.5,0"
                     Point3="22.5,4" />
                   <mssgle:LineSegment
-                    End="22.5,14" />
+                    End="22.5,7" />
                   <mssgle:CubicBezierSegment
-                    Point1="22.5,14"
-                    Point2="22.5,18"
-                    Point3="26.5,18" />
+                    Point1="22.5,7"
+                    Point2="22.5,11"
+                    Point3="26.5,11" />
                   <mssgle:LineSegment
-                    End="37.5,18" />
+                    End="37.5,11" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3411,10 +3411,10 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="556,467"
-          Size="556,510"
+          PanelSize="550,463"
+          Size="550,506"
           Id="Package\Sequence Container Transform_and_Load_Dimensions"
-          TopLeft="286,123.5" />
+          TopLeft="241.5,148" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
